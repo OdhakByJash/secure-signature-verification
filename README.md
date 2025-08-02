@@ -6,6 +6,8 @@
 
 - Use publicly available datasets: **CEDAR**, **GPDS**.
 - Organize data.
+(Completed✅)
+
 ---
 
 ### 2️⃣ Preprocessing
