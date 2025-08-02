@@ -4,10 +4,8 @@
 
 ### 1️⃣ Data Collection & Organization
 
-- Use publicly available datasets: **CEDAR**, **GPDS**, **MCYT**.
-- Organize data into pairs: `(image_1, image_2, label)`  
-  - Label: `1` for genuine pair, `0` for forged.
-
+- Use publicly available datasets: **CEDAR**, **GPDS**.
+- Organize data.
 ---
 
 ### 2️⃣ Preprocessing
