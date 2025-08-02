@@ -4,22 +4,22 @@
 
 ### 1️⃣ Data Collection & Organization
 
-- Use publicly available datasets: **CEDAR**(Testing), **GPDS(Training)**.(Completed✅)
-- Organize data.
+- Use publicly available datasets: **CEDAR(Testing)**, **GPDS(Training)**.(Completed✅)
+- Organize data person-wise and within a person's directories, two sub directories, one for original and one for forged
 (Completed✅)
 
 ---
 
 ### 2️⃣ Preprocessing
 
-- Convert images to grayscale.
-- Resize to fixed dimensions (e.g., 150×220).
-- Normalize pixel values to [0, 1].
-- Apply data augmentation to simulate real-world noise:  
-  - Rotation (±10°)  
-  - Gaussian blur  
-  - Brightness/contrast adjustment  
-  - JPEG compression
+- Convert images to grayscale.(Completed✅)
+- Resize to fixed dimensions (256x256).(Completed✅)
+- Normalize pixel values to [0, 1].(Later⌚)
+- Apply data augmentation to simulate real-world noise: (Later⌚)
+  - Rotation (±10°) (Later⌚)
+  - Gaussian blur (Later⌚)
+  - Brightness/contrast adjustment (Later⌚)
+  - JPEG compression (Later⌚)
 
 ---
 
