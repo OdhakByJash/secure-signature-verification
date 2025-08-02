@@ -4,7 +4,7 @@
 
 ### 1️⃣ Data Collection & Organization
 
-- Use publicly available datasets: **CEDAR**, **GPDS**.
+- Use publicly available datasets: **CEDAR**, **GPDS**.(Completed✅)
 - Organize data.
 (Completed✅)
 
