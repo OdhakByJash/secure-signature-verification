@@ -20,8 +20,6 @@
   - Gaussian blur  
   - Brightness/contrast adjustment  
   - JPEG compression
-- Split dataset: 70% training, 15% validation, 15% test.
-- *(Optional)*: Train on CEDAR, test on GPDS for cross-dataset evaluation.
 
 ---
 
@@ -61,27 +59,3 @@
 - Use **Grad-CAM** or **Integrated Gradients** on CNN layers.
 - Generate heatmaps to highlight signature regions that influence the decision.
 - Return visual explanations with predictions.
-
----
-
-### 7️⃣ Deployment (Backend-Only)
-
-- Backend: **Django REST Framework**.
-- API Endpoints:
-  - `POST /verify-signature/`  
-    - Inputs: Two signature images (file or base64).  
-    - Outputs: Match probability, prediction (genuine/forged), optional Grad-CAM heatmaps.
-  - `GET /model-info/` *(optional)*
-
-- Load trained model (`.pt` or `.h5`) in Django backend.
-- Add **Swagger** or **ReDoc** for API documentation/testing.
-
----
-
-### 8️⃣ Optional UI Integration (Future-Ready)
-
-- UI Stack: **Flutter** (mobile) or **React** (web).
-- Features:
-  - Upload two signature images.
-  - View match result and visual explanation heatmaps.
-- Connect UI to Django REST API via HTTP requests.
