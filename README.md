@@ -5,11 +5,8 @@
 ### Phase-11️⃣ Data Collection & Organization(Completed✅)
 
 - Use publicly available datasets: **CEDAR(Testing)**, **GPDS(Training)**.(Completed✅)
-- Organize data person-wise and within a person's directories, two sub directories, one for original and one for forged
-(Completed✅)
-- Organize data into pairs: (image_1, image_2, label)(Completed✅)
-label = 1: Positive Pair
-label = 0: Negative Pair
+- Organize data person-wise and within a person's directories, two sub directories, one for original and one for forged(Completed✅)
+- Organize data into pairs: (image_1, image_2, label) (label=1 => positive pair) (label=0 => negative pair)(Completed✅)
 - Saved Image Pairs To Pickle Files.(Completed✅)
 
 ---
