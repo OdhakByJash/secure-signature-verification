@@ -2,24 +2,23 @@
 
 ---
 
-### 1️⃣ Data Collection & Organization
+### Phase-11️⃣ Data Collection & Organization(Completed✅)
 
 - Use publicly available datasets: **CEDAR(Testing)**, **GPDS(Training)**.(Completed✅)
 - Organize data person-wise and within a person's directories, two sub directories, one for original and one for forged
 (Completed✅)
+- Organize data into pairs: (image_1, image_2, label)(Completed✅)
+label = 1: Positive Pair
+label = 0: Negative Pair
+- Saved Image Pairs To Pickle Files.(Completed✅)
 
 ---
 
-### 2️⃣ Preprocessing
+### Phase-2️⃣ Preprocessing(Completed✅)
 
-- Convert images to grayscale.(Completed✅)
-- Resize to fixed dimensions (256x256).(Completed✅)
-- Normalize pixel values to [0, 1].(Later⌚)
-- Apply data augmentation to simulate real-world noise: (Later⌚)
-  - Rotation (±10°) (Later⌚)
-  - Gaussian blur (Later⌚)
-  - Brightness/contrast adjustment (Later⌚)
-  - JPEG compression (Later⌚)
+- Converted images to grayscale.(Completed✅)
+- Resized to fixed dimensions (256x256).(Completed✅)
+- Normalized pixel values to [0, 1].(Completed✅)
 
 ---
 
